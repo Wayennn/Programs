@@ -1,0 +1,35 @@
+Entry number
+1
+Name: ARISTON, Nathan Wayne F
+Age: 17
+Gender: male
+Campus: CMC
+
+Entry number
+2
+Name: BRIONES, Dominic Angelo V
+Age: 17
+Gender: male
+Campus: CMC
+
+Entry number
+3
+Name: OZARAGA, Zeki Raphael Niño B
+Age: 17
+Gender: male
+Campus: CMC
+
+Entry number
+4
+Name: GAMBE, Josemaria Miguel
+Age: 17
+Gender: male
+Campus: CMC
+
+Entry number
+5
+Name: ESTRELLA, Maria Charisma P
+Age: 17
+Gender: female
+Campus: CBZRC
+
