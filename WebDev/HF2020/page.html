@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>
+        Contact Tracer
+      </title>
+      <link rel="stylesheet" type = "text/css" href = "styles/style.css">
+      <link href='https://fonts.googleapis.com/css?family=NTR' rel='stylesheet'>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            var x = $("form").serializeArray();
+            s = JSON.stringify(x)
+            $("#results").append(s);
+            return false;
+          });
+        });
+      </script>
+    </head>
+    <body>
+      <div class="masthead">
+        <p class = "first">Contact Tracer</p>
+        <section class = "second">
+          <a class = "link" href = "page.html"> Home </a>
+          |
+          <a class = "link" href = "app_info.html"> App Info</a>
+          |
+          <a class = "link" href = "ids.html"> Compromised IDs </a>
+          |
+          <a class = "link" href="about.html"> About</a>
+        </section>
+      </div>
+      <section class = "parent">
+        <img class = "bg" src = "images/ht3rIX6ND-sSection1.png" alt = "COVID-19">
+      </section>
+      <section>
+        <p class = "maintext"> <u> What is Contact Tracing?&emsp;&emsp;&emsp;&emsp; </u>  </p>
+        <form action = "#">
+          Submitted by: <input type="text" name="name" id = "MacAddress"><br>
+          ID: <input type="text" name="id" ><br>
+          <button>Submit</button>
+        </form>
+        <div id="results"></div>
+      </section>
+      <section>
+        <p class = "maintext"> <u> Why is this app better?&emsp;&emsp;&emsp;&emsp; </u></p>
+      </section>
+      <footer>
+        
+      </footer>
+  </body>
+</html>
